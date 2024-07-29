@@ -1,0 +1,82 @@
+
+Insert:
+Top 10 maximos:
+Id: 56, Tiempo: 0.010005 segundos
+Id: 448, Tiempo: 0.001047 segundos
+Id: 340, Tiempo: 0.001028 segundos
+Id: 1183, Tiempo: 0.001006 segundos
+Id: 1968, Tiempo: 0.001002 segundos
+Id: 1530, Tiempo: 0.001000 segundos
+Id: 152, Tiempo: 0.000998 segundos
+Id: 276, Tiempo: 0.000998 segundos
+Id: 1301, Tiempo: 0.000987 segundos
+Id: 515, Tiempo: 0.000904 segundos
+Top 10 minimos:
+Id: 999, Tiempo: 0.000000 segundos
+Id: 998, Tiempo: 0.000000 segundos
+Id: 997, Tiempo: 0.000000 segundos
+Id: 996, Tiempo: 0.000000 segundos
+Id: 995, Tiempo: 0.000000 segundos
+Id: 994, Tiempo: 0.000000 segundos
+Id: 993, Tiempo: 0.000000 segundos
+Id: 992, Tiempo: 0.000000 segundos
+Id: 991, Tiempo: 0.000000 segundos
+Id: 990, Tiempo: 0.000000 segundos
+Promedio: 0.000009 segundos
+
+
+Search:
+Top 10 maximos:
+Id: 1392, Tiempo: 0.008871 segundos
+Id: 1691, Tiempo: 0.001002 segundos
+Id: 1943, Tiempo: 0.000997 segundos
+Id: 1929, Tiempo: 0.000000 segundos
+Id: 1526, Tiempo: 0.000000 segundos
+Id: 1676, Tiempo: 0.000000 segundos
+Id: 1164, Tiempo: 0.000000 segundos
+Id: 1582, Tiempo: 0.000000 segundos
+Id: 549, Tiempo: 0.000000 segundos
+Id: 389, Tiempo: 0.000000 segundos
+Top 10 minimos:
+Id: 1874, Tiempo: 0.000000 segundos
+Id: 1133, Tiempo: 0.000000 segundos
+Id: 174, Tiempo: 0.000000 segundos
+Id: 1083, Tiempo: 0.000000 segundos
+Id: 1469, Tiempo: 0.000000 segundos
+Id: 608, Tiempo: 0.000000 segundos
+Id: 1442, Tiempo: 0.000000 segundos
+Id: 698, Tiempo: 0.000000 segundos
+Id: 189, Tiempo: 0.000000 segundos
+Id: 207, Tiempo: 0.000000 segundos
+Promedio: 0.000021 segundos
+
+
+Delete:
+Top 10 maximos:
+Id: 303, Tiempo: 0.009131 segundos
+Id: 595, Tiempo: 0.001006 segundos
+Id: 1883, Tiempo: 0.001001 segundos
+Id: 1317, Tiempo: 0.000381 segundos
+Id: 475, Tiempo: 0.000176 segundos
+Id: 1340, Tiempo: 0.000000 segundos
+Id: 378, Tiempo: 0.000000 segundos
+Id: 1154, Tiempo: 0.000000 segundos
+Id: 1686, Tiempo: 0.000000 segundos
+Id: 600, Tiempo: 0.000000 segundos
+Top 10 minimos:
+Id: 1333, Tiempo: 0.000000 segundos
+Id: 1827, Tiempo: 0.000000 segundos
+Id: 1330, Tiempo: 0.000000 segundos
+Id: 221, Tiempo: 0.000000 segundos
+Id: 28, Tiempo: 0.000000 segundos
+Id: 1765, Tiempo: 0.000000 segundos
+Id: 815, Tiempo: 0.000000 segundos
+Id: 241, Tiempo: 0.000000 segundos
+Id: 1102, Tiempo: 0.000000 segundos
+Id: 1979, Tiempo: 0.000000 segundos
+Promedio: 0.000018 segundos
+
+Tiempo total de todas las operaciones:
+Insert: 0.018975 segundos
+Search: 0.010869 segundos
+Delete: 0.011694 segundos
