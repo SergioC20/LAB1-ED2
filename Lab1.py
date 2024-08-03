@@ -4,29 +4,6 @@ import datetime
 from collections import defaultdict
 
 
-def main_menu():
-    while True:
-        print("\nMenú Principal")
-        print("1. Árbol AVL")
-        print("2. Árbol B")
-        print("3. Salir")
-        choice = input("Seleccione una opción (1-3): ")
-
-        if choice == '1':
-            filename = input("Ingrese el nombre del archivo de comandos para AVL: ")
-            process_file_avl(filename)
-        elif choice == '2':
-            t = int(input("Ingrese el grado mínimo del árbol B (t): "))
-            filename = input("Ingrese el nombre del archivo de comandos para B-tree: ")
-            process_file_b(filename, t)
-        elif choice == '3':
-            print("Gracias por usar el programa. ¡Hasta luego!")
-            break
-        else:
-            print("Opción no válida. Por favor, intente de nuevo.")
-
-if __name__ == "__main__":
-    main_menu()
 
 
 
@@ -302,6 +279,28 @@ class BTree:
         return x.keys[0]
 
 
+def main_menu():
+    while True:
+        print("\nMenú Principal")
+        print("1. Árbol AVL")
+        print("2. Árbol B")
+        print("3. Salir")
+        choice = input("Seleccione una opción (1-3): ")
+
+        if choice == '1':
+            filename = input("Ingrese el nombre del archivo de comandos para AVL: ")
+            process_file_avl(filename)
+        elif choice == '2':
+            t = int(input("Ingrese el grado mínimo del árbol B (t): "))
+            filename = input("Ingrese el nombre del archivo de comandos para B-tree: ")
+            process_file_b(filename, t)
+        elif choice == '3':
+            print("Gracias por usar el programa. ¡Hasta luego!")
+            break
+        else:
+            print("Opción no válida. Por favor, intente de nuevo.")
+
+
 def process_file_avl(filename):
     tree = AVLTree()
     root = None
@@ -393,9 +392,7 @@ def process_file_avl(filename):
         timing_results_content = f.read()
         print(timing_results_content)
 
-if __name__ == "__main__":
-    filename = input("Ingrese el nombre del archivo de comandos: ")
-    process_file_avl(filename)
+
 
 def process_file_b(filename, t):
     tree = BTree(t)
@@ -484,9 +481,10 @@ def process_file_b(filename, t):
         timing_results_content = f.read()
         print(timing_results_content)
 
-if __name__ == "__main__":
-    t = int(input("Ingrese el grado mínimo del árbol B (t): "))
-    filename = input("Ingrese el nombre del archivo de comandos: ")
-    process_file_b(filename, t)
 
+
+
+
+if __name__ == "__main__":
+    main_menu()
 

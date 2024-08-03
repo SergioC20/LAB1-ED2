@@ -1,16 +1,16 @@
 
 Insert:
 Top 10 maximos:
-Id: 1263, Tiempo: 0.007512 segundos
-Id: 1284, Tiempo: 0.006024 segundos
-Id: 517, Tiempo: 0.004161 segundos
-Id: 176, Tiempo: 0.002530 segundos
-Id: 789, Tiempo: 0.002046 segundos
-Id: 1926, Tiempo: 0.001911 segundos
-Id: 137, Tiempo: 0.001035 segundos
-Id: 686, Tiempo: 0.000707 segundos
-Id: 19, Tiempo: 0.000524 segundos
-Id: 78, Tiempo: 0.000051 segundos
+Id: 221, Tiempo: 0.005032 segundos
+Id: 1074, Tiempo: 0.001009 segundos
+Id: 1085, Tiempo: 0.000087 segundos
+Id: 1241, Tiempo: 0.000068 segundos
+Id: 56, Tiempo: 0.000062 segundos
+Id: 1471, Tiempo: 0.000000 segundos
+Id: 1366, Tiempo: 0.000000 segundos
+Id: 1666, Tiempo: 0.000000 segundos
+Id: 1337, Tiempo: 0.000000 segundos
+Id: 1232, Tiempo: 0.000000 segundos
 Top 10 minimos:
 Id: 999, Tiempo: 0.000000 segundos
 Id: 998, Tiempo: 0.000000 segundos
@@ -22,11 +22,14 @@ Id: 993, Tiempo: 0.000000 segundos
 Id: 992, Tiempo: 0.000000 segundos
 Id: 991, Tiempo: 0.000000 segundos
 Id: 990, Tiempo: 0.000000 segundos
-Promedio: 0.000013 segundos
+Promedio: 0.000003 segundos
 
 
 Search:
 Top 10 maximos:
+Id: 1835, Tiempo: 0.000997 segundos
+Id: 1964, Tiempo: 0.000810 segundos
+Id: 1323, Tiempo: 0.000293 segundos
 Id: 1929, Tiempo: 0.000000 segundos
 Id: 1526, Tiempo: 0.000000 segundos
 Id: 1676, Tiempo: 0.000000 segundos
@@ -34,9 +37,6 @@ Id: 1164, Tiempo: 0.000000 segundos
 Id: 1582, Tiempo: 0.000000 segundos
 Id: 549, Tiempo: 0.000000 segundos
 Id: 389, Tiempo: 0.000000 segundos
-Id: 934, Tiempo: 0.000000 segundos
-Id: 1656, Tiempo: 0.000000 segundos
-Id: 660, Tiempo: 0.000000 segundos
 Top 10 minimos:
 Id: 1874, Tiempo: 0.000000 segundos
 Id: 1133, Tiempo: 0.000000 segundos
@@ -48,13 +48,14 @@ Id: 1442, Tiempo: 0.000000 segundos
 Id: 698, Tiempo: 0.000000 segundos
 Id: 189, Tiempo: 0.000000 segundos
 Id: 207, Tiempo: 0.000000 segundos
-Promedio: 0.000000 segundos
+Promedio: 0.000004 segundos
 
 
 Delete:
 Top 10 maximos:
-Id: 1732, Tiempo: 0.001426 segundos
-Id: 1323, Tiempo: 0.001384 segundos
+Id: 1577, Tiempo: 0.005029 segundos
+Id: 204, Tiempo: 0.003523 segundos
+Id: 1418, Tiempo: 0.001020 segundos
 Id: 1340, Tiempo: 0.000000 segundos
 Id: 378, Tiempo: 0.000000 segundos
 Id: 1154, Tiempo: 0.000000 segundos
@@ -62,7 +63,6 @@ Id: 1686, Tiempo: 0.000000 segundos
 Id: 600, Tiempo: 0.000000 segundos
 Id: 944, Tiempo: 0.000000 segundos
 Id: 1419, Tiempo: 0.000000 segundos
-Id: 1452, Tiempo: 0.000000 segundos
 Top 10 minimos:
 Id: 1333, Tiempo: 0.000000 segundos
 Id: 1827, Tiempo: 0.000000 segundos
@@ -74,9 +74,9 @@ Id: 815, Tiempo: 0.000000 segundos
 Id: 241, Tiempo: 0.000000 segundos
 Id: 1102, Tiempo: 0.000000 segundos
 Id: 1979, Tiempo: 0.000000 segundos
-Promedio: 0.000004 segundos
+Promedio: 0.000015 segundos
 
 Tiempo total de todas las operaciones:
-Insert: 0.026501 segundos
-Search: 0.000000 segundos
-Delete: 0.002810 segundos
+Insert: 0.006258 segundos
+Search: 0.002100 segundos
+Delete: 0.009573 segundos
