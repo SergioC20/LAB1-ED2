@@ -16,7 +16,7 @@ class BTree:
 
     def insert(self, k, name):
         root = self.root
-        if len(root.keys) == (2 * self.t) - 1:
+        if len(root.keys) == (2 * self.t) + 1:
             temp = BTreeNode()
             self.root = temp
             temp.children.insert(0, root)

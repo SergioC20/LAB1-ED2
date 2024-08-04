@@ -3,7 +3,8 @@ import time
 import datetime
 from collections import defaultdict
 
-class Node:
+#constructor 
+class Node: 
     def __init__(self, key, name):
         self.key = key
         self.name = name
@@ -12,26 +13,30 @@ class Node:
         self.height = 1
 
 class AVLTree:
-    def get_height(self, root):
+    def get_height(self, root):  #devuelve la altura del nodo 'root'
         if not root:
-            return 0
+            return 0 #Si root es None devuelve 0
         return root.height
 
-    def get_balance(self, root):
+    def get_balance(self, root): #balanceo del arbol 
         if not root:
             return 0
-        return self.get_height(root.left) - self.get_height(root.right)
+        return self.get_height(root.left) - self.get_height(root.right) #calcula y devuelve el factor de balanceo de root (diferencia entre el subarbol izquierdo  y derecho))
 
-    def right_rotate(self, z):
-        y = z.left
-        T3 = y.right
-        y.right = z
-        z.left = T3
+    def right_rotate(self, z): #rotacion a la derecha
+        y = z.left #'y' se convierte en el nuevo nodo raiz
+        T3 = y.right #T3 es el subarbol derecho de 'y'
+
+        #realiza la rotacion
+        y.right = z #'y' se convierte en la nueva raiz y 'z' se convierte en el subarbol derecho
+        z.left = T3 # 'T3' se convierte en el subarbol izquiedo de 'z'
+
+        #se actualizan las alturas
         z.height = 1 + max(self.get_height(z.left), self.get_height(z.right))
         y.height = 1 + max(self.get_height(y.left), self.get_height(y.right))
-        return y
+        return y #'y' es la nueva raiz del subarbol
 
-    def left_rotate(self, z):
+    def left_rotate(self, z): #rotacion a la izquierda
         y = z.right
         T2 = y.left
         y.left = z
@@ -41,25 +46,25 @@ class AVLTree:
         return y
 
     def insert(self, root, key, name):
-        if not root:
+        if not root: #reglas de insercion 
             return Node(key, name)
-        elif key < root.key:
+        elif key < root.key: #si es menor se inserta a la izquierda
             root.left = self.insert(root.left, key, name)
-        else:
+        else: #si es mayo se inserta a la derecha
             root.right = self.insert(root.right, key, name)
-
+        #actuzliza la altura: 1 + la altura maxima de cada subarbol
         root.height = 1 + max(self.get_height(root.left), self.get_height(root.right))
 
-        balance = self.get_balance(root)
+        balance = self.get_balance(root) #calculamos el balance del arbol
 
-        if balance > 1 and key < root.left.key:
+        if balance > 1 and key < root.left.key: #rotacion a la derecha
             return self.right_rotate(root)
-        if balance < -1 and key > root.right.key:
+        if balance < -1 and key > root.right.key: #rotacion a la izquierda
             return self.left_rotate(root)
-        if balance > 1 and key > root.left.key:
+        if balance > 1 and key > root.left.key: #rotacion izquierda - derecha
             root.left = self.left_rotate(root.left)
             return self.right_rotate(root)
-        if balance < -1 and key < root.right.key:
+        if balance < -1 and key < root.right.key: #rotacion derecha - izquierda
             root.right = self.right_rotate(root.right)
             return self.left_rotate(root)
 
@@ -67,11 +72,11 @@ class AVLTree:
 
     def delete(self, root, key):
         if not root:
-            return root, False
+            return root, False #retorna falso si no se elimino un nodo
 
-        if key < root.key:
+        if key < root.key: #eliminacion en el subarbol izquiedo
             root.left, deleted = self.delete(root.left, key)
-        elif key > root.key:
+        elif key > root.key: # eliminacion en el subarbol derecho
             root.right, deleted = self.delete(root.right, key)
         else:
             deleted = True

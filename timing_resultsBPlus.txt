@@ -1,16 +1,16 @@
 
 Insert:
 Top 10 maximos:
-Id: 717, Tiempo: 0.010029 segundos
-Id: 636, Tiempo: 0.001315 segundos
-Id: 1500, Tiempo: 0.001000 segundos
-Id: 1197, Tiempo: 0.001000 segundos
-Id: 316, Tiempo: 0.001000 segundos
-Id: 389, Tiempo: 0.000999 segundos
-Id: 1482, Tiempo: 0.000548 segundos
-Id: 527, Tiempo: 0.000443 segundos
+Id: 206, Tiempo: 0.003024 segundos
+Id: 1697, Tiempo: 0.001028 segundos
 Id: 1471, Tiempo: 0.000000 segundos
 Id: 1366, Tiempo: 0.000000 segundos
+Id: 1666, Tiempo: 0.000000 segundos
+Id: 1337, Tiempo: 0.000000 segundos
+Id: 1232, Tiempo: 0.000000 segundos
+Id: 155, Tiempo: 0.000000 segundos
+Id: 1532, Tiempo: 0.000000 segundos
+Id: 1482, Tiempo: 0.000000 segundos
 Top 10 minimos:
 Id: 999, Tiempo: 0.000000 segundos
 Id: 998, Tiempo: 0.000000 segundos
@@ -22,7 +22,7 @@ Id: 993, Tiempo: 0.000000 segundos
 Id: 992, Tiempo: 0.000000 segundos
 Id: 991, Tiempo: 0.000000 segundos
 Id: 990, Tiempo: 0.000000 segundos
-Promedio: 0.000008 segundos
+Promedio: 0.000002 segundos
 
 
 Search:
@@ -53,16 +53,16 @@ Promedio: 0.000000 segundos
 
 Delete:
 Top 10 maximos:
-Id: 739, Tiempo: 0.001000 segundos
-Id: 1247, Tiempo: 0.000839 segundos
-Id: 1469, Tiempo: 0.000783 segundos
+Id: 1415, Tiempo: 0.003514 segundos
+Id: 580, Tiempo: 0.001002 segundos
+Id: 877, Tiempo: 0.000999 segundos
+Id: 859, Tiempo: 0.000885 segundos
+Id: 1792, Tiempo: 0.000816 segundos
 Id: 1340, Tiempo: 0.000000 segundos
 Id: 378, Tiempo: 0.000000 segundos
 Id: 1154, Tiempo: 0.000000 segundos
 Id: 1686, Tiempo: 0.000000 segundos
 Id: 600, Tiempo: 0.000000 segundos
-Id: 944, Tiempo: 0.000000 segundos
-Id: 1419, Tiempo: 0.000000 segundos
 Top 10 minimos:
 Id: 1333, Tiempo: 0.000000 segundos
 Id: 1827, Tiempo: 0.000000 segundos
@@ -74,9 +74,9 @@ Id: 815, Tiempo: 0.000000 segundos
 Id: 241, Tiempo: 0.000000 segundos
 Id: 1102, Tiempo: 0.000000 segundos
 Id: 1979, Tiempo: 0.000000 segundos
-Promedio: 0.000004 segundos
+Promedio: 0.000011 segundos
 
 Tiempo total de todas las operaciones:
-Insert: 0.016334 segundos
+Insert: 0.004052 segundos
 Search: 0.000000 segundos
-Delete: 0.002623 segundos
+Delete: 0.007216 segundos
